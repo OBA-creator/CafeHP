@@ -1,0 +1,177 @@
+/*基本の設定*/
+@charset "UTF-8";
+
+
+.container{
+    max-width:1280px; 
+    margin-left:auto;
+    margin-right:auto;
+
+    }
+
+
+/*個別の設定*/
+
+.main{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+    
+}
+
+.main.show{
+    opacity: 1;
+    transform: translateY(0);
+
+}
+
+.header-contents{
+    display:flex;
+    background-color:#DE530C;
+    width:1280px;
+    height:124px;
+    z-index:1;
+    opacity:0.9;
+    position:fixed;
+    margin:0 auto;
+    align-items:center;
+    justify-content: space-between;
+
+
+    
+
+}
+
+.coffeecup{
+    display:flex;
+    z-index:2;
+    align-items:center;
+    
+
+}
+
+.cupicon{
+    width:100px;
+    height:70px;
+    z-index:1;
+    display:block;
+    margin:35px;
+   
+
+
+}
+
+
+
+.coffeecup a{
+    color:#ffffff;
+    text-shadow:5px 5px 0 black;
+    font-weight:800;
+    font-size:60px;
+    margin:0 0 0 20px;
+    text-decoration:none;
+}
+
+
+
+.menuicon ul{
+    display:flex;
+    list-style:none;
+    margin-right:45px;
+    margin-top:70px;
+
+
+    
+
+}
+
+.menuicon ul li a{
+    margin:0 30px 0 0;
+    font-size:20px;
+    font-weight:1000;
+    color:#ffffff;
+    text-decoration:none;
+    font-family: "Meiryo UI", "Meiryo", sans-serif;
+    
+}
+
+.menuicon ul li a:hover{
+    opacity:0.8;
+}
+
+
+.newswrapper{
+    padding-top:175px;
+    max-width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    margin-bottom:100px;
+
+}
+
+.newswrapper h2{
+    font-family: 'Microsoft JhengHei UI', 'Microsoft JhengHei', sans-serif;
+    font-size:40px;
+    padding-top:30px;
+    padding-bottom:50px;
+
+}
+
+.news{
+    display:flex;
+}
+
+.newscontents{
+    background-color:#F8F8DD;
+    border:2px solid #707070;
+    width:300px;
+    height:445px;
+    text-align:center;
+
+
+}
+
+.newsc{
+    margin-right:40px;
+    
+}
+
+.newsimg{
+    width:250px;
+    height:250px;
+    margin-top:20px;
+    border:1px solid #707070;
+    
+
+}
+
+.newscontent{
+    text-align:left;
+    margin-left:25px;
+    margin-right:25px;
+}
+
+.newscontent a{
+    font-family: 'Source Han Sans JP', sans-serif;
+    font-size:15px;
+    padding:30px 0;
+
+}
+
+.newscontent p{
+    font-family: 'Source Han Sans JP', sans-serif;
+    font-size:20px;
+    margin-bottom:25px;
+}
+
+
+
+footer p{
+    text-align:center;
+    color:#8E8888;
+    font-size:20px;
+
+
+}
+

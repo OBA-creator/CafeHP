@@ -1,0 +1,204 @@
+/*基本の設定*/
+@charset "UTF-8";
+
+
+.container{
+    max-width:1280px; 
+    margin-left:auto;
+    margin-right:auto;
+
+
+}
+
+/*個別の設定*/
+
+.header-contents{
+    display:flex;
+    background-color:#DE530C;
+    width:1280px;
+    height:124px;
+    z-index:1;
+    opacity:0.9;
+    position:fixed;
+    margin:0 auto;
+    align-items:center;
+    justify-content: space-between;
+
+
+    
+
+}
+
+.coffeecup{
+    display:flex;
+    z-index:2;
+    align-items:center;
+    
+
+}
+
+.cupicon{
+    width:100px;
+    height:70px;
+    z-index:1;
+    display:block;
+    margin:35px;
+   
+
+
+}
+
+
+
+.coffeecup a{
+    color:#ffffff;
+    text-shadow:5px 5px 0 black;
+    font-weight:800;
+    font-size:60px;
+    margin:0 0 0 20px;
+    text-decoration:none;
+
+
+
+
+
+}
+
+
+
+.menuicon ul{
+    display:flex;
+    list-style:none;
+    margin-right:45px;
+    margin-top:70px;
+
+
+    
+
+}
+
+.menuicon ul li a{
+    margin:0 30px 0 0;
+    font-size:20px;
+    font-weight:1000;
+    color:#ffffff;
+    text-decoration:none;
+    font-family: "Meiryo UI", "Meiryo", sans-serif;
+    
+
+    
+
+}
+
+.menuicon ul li a:hover{
+    opacity:0.8;
+}
+
+.main{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+    
+}
+
+.main.show{
+    opacity: 1;
+    transform: translateY(0);
+
+}
+
+
+.photocontents{
+    width:1280px;
+    height:720px;
+    margin-top:124px;
+    
+
+}
+
+.conceptframe,.mainpagenewsframe{
+    width:750px;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+.conceptframe{
+    height:582px;
+    background-color:#F8F8DD;
+
+}
+
+.concept,.mainpagenews{
+    width:600px;
+    text-align:center;
+    margin:auto;
+
+    
+}
+
+.concept h1{
+    color:#E1DCDC;
+    font-size:40px;
+    font-family: "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+    padding-top:53px;
+
+}
+
+.concept h2{
+    color:#000000;
+    font-size:30px;
+    font-family: 'Source Han Sans JP', sans-serif;
+    margin-top:50px;
+    margin-bottom:50px
+
+}
+
+.concept p{
+    color:#000000;
+    font-size:20px;
+    font-family: 'Source Han Sans JP', sans-serif;
+    margin-bottom:40px;
+    line-height:50px;
+
+
+}
+
+.mainpagenewsframe{
+    height:349px;
+    background-color:#F8F8DD;
+}
+
+.mainpagenews{
+    width:600px;
+    
+}
+
+.mainpagenews h1{
+    color:#E1DCDC;
+    font-size:40px;
+    font-family: "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+    padding-top:53px;
+
+}
+
+.mainpagenewscontents{
+    border-top:1px solid #707070;
+    border-bottom:1px solid #707070;
+    margin:20px 0;
+    text-align:left;
+}
+
+.mainpagenewscontents p{
+    color:#000000;
+    font: size 20px;
+    font-family: 'Source Han Sans JP', sans-serif;
+}
+
+footer p{
+    text-align:center;
+    color:#8E8888;
+    font-size:20px;
+
+}
+
