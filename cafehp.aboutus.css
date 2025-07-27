@@ -1,0 +1,193 @@
+/*基本の設定*/
+@charset "UTF-8";
+
+
+.container{
+    max-width:1280px; 
+    margin-left:auto;
+    margin-right:auto;
+
+
+}
+
+@font-face {
+  font-family: 'Hanazome';
+  src: url('はなぞめフォント.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*個別の設定*/
+
+.header-contents{
+    display:flex;
+    background-color:#DE530C;
+    width:1280px;
+    height:124px;
+    z-index:1;
+    opacity:0.9;
+    position:fixed;
+    top:0;
+    margin:0 auto;
+    align-items:center;
+    justify-content: space-between;
+
+}
+
+.coffeecup{
+    display:flex;
+    z-index:2;
+    align-items:center;
+    
+
+}
+
+.cupicon{
+    width:100px;
+    height:70px;
+    z-index:1;
+    display:block;
+    margin:35px;
+   
+
+
+}
+
+
+
+.coffeecup a{
+    color:#ffffff;
+    text-shadow:5px 5px 0 black;
+    font-weight:800;
+    font-size:60px;
+    margin:0 0 0 20px;
+    text-decoration:none;
+
+
+
+
+
+}
+
+
+
+.menuicon ul{
+    display:flex;
+    list-style:none;
+    margin-right:45px;
+    margin-top:70px;
+
+
+    
+
+}
+
+.menuicon ul li a{
+    margin:0 30px 0 0;
+    font-size:20px;
+    font-weight:1000;
+    color:#ffffff;
+    text-decoration:none;
+    font-family: "Meiryo UI", "Meiryo", sans-serif;
+    
+}
+
+.menuicon ul li a:hover{
+    opacity:0.8;
+}
+
+.main{
+    margin-top:224px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+
+}
+
+.main.show{
+    opacity: 1;
+    transform: translateY(0);
+
+}
+
+
+
+.aboutusframe{
+    width:750px;
+    height:2150px;
+    background-color:#f8f8DD;
+    text-align:left;
+    margin:0 auto;
+        
+}
+
+.aboutustext{
+    max-width:600px;
+    margin:0 auto;
+
+        
+}
+
+.aboutustext h1{
+    color:#E1DCDC;
+    padding-top:86px;
+    text-align:center;
+    font-size:40px;
+    font-family: "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+
+}
+
+.aboutustext h3{
+    font-size:30px;
+    padding:50px 0;
+    text-align:center;
+    font-family: 'Hanazome', sans-serif;
+    line-height:50px;
+
+
+
+}
+
+.aboutphoto{
+    width:600px;
+    height:600px;
+
+}
+
+.abouttext{
+    font-size:20px;
+    margin-bottom:50px;
+
+}
+
+.abouttext p{
+    line-height:50px;
+    font-family: 'Source Han Sans', 'Noto Sans CJK JP', sans-serif;
+
+
+}
+
+.shopowner{
+    font-size:20px;
+    margin-top:100px;
+    text-align:right;
+    padding-right:20px;
+    padding-bottom:20px;
+    font-family: 'Source Han Sans', 'Noto Sans CJK JP', sans-serif;
+
+}
+
+
+
+
+
+footer p{
+    text-align:center;
+    color:#8E8888;
+    font-size:20px;
+
+}
+
